@@ -1,0 +1,26 @@
+ETL
+访问地址：http://192.168.1.150:8082/gotopETL/main/index
+
+数据超市
+访问地址：http://192.168.1.150:8780/datamart/home/index
+	1、sql查询测试语句：
+		SELECT * FROM PORTAL_USER_INFO
+	2、下发测试是mysql的datamart库下的PORTAL_ORG_INFO表
+	
+	
+本地
+ETL
+http://localhost:8081/gotopETL/
+数据超市
+http://localhost:8080/datamart/
+
+
+
+
+
+
+
+
+
+
+sjcx_test
