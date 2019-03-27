@@ -53,6 +53,7 @@ mybatis:
  mapper-locations: # 所有的mapper映射文件
  - classpath:mapping/*.xml
 spring:
+ profiles: beta
  datasource:
    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
    driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
@@ -61,7 +62,7 @@ spring:
    password: 123456 # 数据库连接密码
  application:
    name: microcloud-config-product-client
- profiles: beta
+
 
 logging:
   level:
